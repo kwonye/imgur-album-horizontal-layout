@@ -1,0 +1,16 @@
+{	
+	"name": "Imgur Album Horizontal Layout",
+	"version": "1.0",
+	"manifest_version": 2,
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png",
+	          "128": "icon128.png" },
+	"description": "Automatically sets Imgur albums to the horizontal layout.",
+	
+	"content_scripts": [
+	    {
+	      "matches": ["http://imgur.com/*"],
+	      "js": ["jquery.js", "setlayout.js"]
+	    }
+	  ]
+}
