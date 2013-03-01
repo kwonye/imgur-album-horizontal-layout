@@ -8,5 +8,5 @@ $(document).ready(function() {
 		$("#userLayoutForm #horizontal").attr('checked', 'checked');
 		$(".button-medium.userSessionLayout").click();
 	}
-	$('#cboxClose').click()
+	$('#colorbox').remove();
 })
